@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Red Hot Chili Peppers",
+        "genres": [
+            "Rock"
+        ],
+        "members": [
+            "Flea", 
+            "Anthony Kiedis", 
+            "Chad Smith", 
+            "Josh Klinghoffer"
+        ],
+        "albums": [
+            {
+                "title": "Stadium Arcadium",
+                "release_date": "1999/12/25",
+                "songs": [
+                    {
+                        "name": "Dani California",
+                        "duration": 28200,
+                        "release_date": 1147150800000
+                    },
+                    {
+                        "name": "Snow (Hey Oh)",
+                        "duration": 334000,
+                        "release_date": 1171864800000
+                    },
+                    {
+                        "name": "Charlie",
+                        "duration": 277000,
+                        "release_date": 1582956000000
+                    }
+                ]
+            }
+        ]
+    }
+]
