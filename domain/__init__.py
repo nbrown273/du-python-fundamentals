@@ -1,0 +1,1 @@
+__all__ = ['album', 'artist', 'song']
