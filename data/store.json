@@ -33,5 +33,68 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Dragonforce",
+        "genres": [
+            "Power Metal",
+            "Speed Metal"
+        ],
+        "members": [
+            "ZP Threat",
+            "Herman Li",
+            "Sam Totman",
+            "Diccon Harper",
+            "Vadim Pruzhanov",
+            "Dider Almouzni"
+        ],
+        "albums": [
+            {
+                "title": "Valley of the Damned",
+                "release_date": "2002/02/25",
+                "songs": [
+                    {
+                        "name": "Valley of the Damned",
+                        "duration": 43200,
+                        "release_date": 1020211200000
+                    },
+                    {
+                        "name": "Black Fire",
+                        "duration": 34700,
+                        "release_date": 1022630400000
+                    },
+                    {
+                        "name": "Black Winter Night",
+                        "duration": 39000,
+                        "release_date": 1025049600000
+                    },
+                    {
+                        "name": "Starfire",
+                        "duration": 35400,
+                        "release_date": 1027296000000
+                    },
+                    {
+                        "name": "Disciples of Babylon",
+                        "duration": 43700,
+                        "release_date": 1029715200000
+                    },
+                    {
+                        "name": "Revalations",
+                        "duration": 41200,
+                        "release_date": 1032048000000
+                    },
+                    {
+                        "name": "Evening Star",
+                        "duration": 40000,
+                        "release_date": 1033430400000
+                    },
+                    {
+                        "name": "Heart of a Dragon",
+                        "duration": 32400,
+                        "release_date": 1036022400000
+                    }
+                ]
+            }
+        ]
     }
 ]
