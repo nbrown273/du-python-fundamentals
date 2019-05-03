@@ -24,4 +24,4 @@ for a in rhcp.albums:
 
 # print the # of songs and total duration for each album
 for a in rhcp.albums:
-    print('Album: "{}", # of Songs: {}, Total Duration: {}'.format(a.title, a.countSongs(), a.totalDuration()))
+    print('Album: "{}", # of Songs: {}, Total Duration: {}'.format(a.title, a.count_songs(), a.totalDuration()))

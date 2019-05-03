@@ -11,6 +11,6 @@ class Artist():
         else:
             self.albums = albums
 
-    def countSongs(self):
+    def count_songs(self):
         cnt = sum([len(album.songs) for album in self.albums])  # opportunity to demonstrate list comprehension AND/OR composition?
         return cnt

@@ -14,7 +14,7 @@ class Album():
     def __repr__(self):
         return self.title
 
-    def countSongs(self):
+    def count_songs(self):
         return len(self.songs)
 
     def totalDuration(self):
