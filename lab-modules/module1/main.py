@@ -19,7 +19,7 @@ class Artist():
             self.albums = albums
 
     # TODO: define count_songs() function
-        # HINT: use the function by the same name defined in our Album class
+        # HINT: reuse the function by the same name defined in our Album class. DRY design principles.
 
 
 class Song():
