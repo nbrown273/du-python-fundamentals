@@ -22,6 +22,6 @@ for a in rhcp.albums:
     if a.title == 'Stadium Arcadium':
         a.songs += [t1, t2, t3]
 
-# print the # of songs and total duration for each album
+# print the number of songs and total duration for each album
 for a in rhcp.albums:
     print('Album: "{}", # of Songs: {}, Total Duration: {}'.format(a.title, a.count_songs(), a.totalDuration()))
