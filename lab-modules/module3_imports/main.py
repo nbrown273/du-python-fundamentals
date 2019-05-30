@@ -1,3 +1,7 @@
+# TODO: move each class definition into a separate file, with the same name as the class
+# TODO: copy any tests/code you have written other than the class definitions, those should stay here in "main.py".
+# TODO: be sure to import your classes from their respective files so you can use them here in "main".
+
 class Album():
 
     def __init__(self, title, release_date, songs=None):
@@ -36,6 +40,3 @@ class Song():
         self.name = name
         self.duration = duration
         self.release_date = release_date
-
-# testing
-# TODO: Create an Artist and an Album. Assign the Album to albums property of the Artist.
