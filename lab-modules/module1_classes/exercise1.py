@@ -11,7 +11,7 @@ class MyTestClass():
 #############################
 
 # TODO: Define a class - "Car"
-# TODO: The Car should have variables to represent the make and model, accepted as inputs.
+# TODO: The Car should have variables to represent the make and model, accepted as inputs. (the __init__ method)
 # TODO: Define a function in the Car class "honk". This function should print something like "Honk!" to stdout
 
 

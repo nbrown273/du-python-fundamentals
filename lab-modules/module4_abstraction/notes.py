@@ -2,7 +2,7 @@
 # only one place in the source code. Any duplicated functionality should be abstracted away to a single place (such as a new method)
 # and called where needed. This is also often referred to as DRY (Don't Repeat Yourself) design. Let's look at an example.
 # Here we can see the source code for the builtin open() function we used earlier. Without abstraction, you would need to write the
-# code shown below every time you wanted to open a file. Instead, it is abstracted away into the open() function and available to all
+# code shown below (at least in part) every time you wanted to open a file. Instead, it is abstracted away into the open() function and available to all
 # parts of our code.
 
 def open(file, mode="r", buffering=-1, encoding=None, errors=None,
