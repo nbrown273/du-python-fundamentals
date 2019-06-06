@@ -1,0 +1,11 @@
+{
+    "folders":
+    [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "python_interpreter": "/Users/jgmayc/venv/da-du/bin/python"
+    }
+}

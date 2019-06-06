@@ -1,4 +1,4 @@
-# EDIT ME!!!!
+# ~EDIT ME!!!!~ I REFUSE!!!
 
 # python-fundamentals
 
