@@ -1,6 +1,6 @@
-# imports are needed when you want to use code that is not defined in the basic library (loaded by default when Python is executed, such as "print")
+# imports are needed when you want to use code that is not defined in the standard library (The standard library is loaded by default when Python is executed, such as "print")
 
-# for example, this code needs to read data from a file. To accomplish this it needs the "csv" module, which has utilities for reading and writing csv files
+# for example, this code needs to read data from a csv file. To accomplish this it needs the "csv" module, which has utilities for reading and writing csv files
 import csv
 
 file = open('eggs.csv', newline='')
@@ -23,5 +23,5 @@ say_hello()
 
 ###########################
 
-# TODO: import the Artist class from your "main.py" file
+# TODO: import the Artist class from your "main.py" file here
 # TODO: create an artist object and print it's name to the console

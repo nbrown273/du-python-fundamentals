@@ -39,4 +39,4 @@ class Song():
 
 
 # testing
-# TODO: create an Artist and an Album.
+# TODO: Instantiate an Artist, Album, and three Songs.

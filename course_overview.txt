@@ -12,7 +12,7 @@ This course will take students through a series of guided modules which, as a ge
 Each module is designed to take on average 1 hour to complete. The intent is for the content to be presented over the course of two days as follows:
 Day 1
     * Intro and environment setup (PyCharm)
-    * Short lecture - basic design principles and debugging demo
+    * Short lecture - basic concept review and debugging demo
     * Module 1 - Classes and Functions
     * Module 2 - Composition (and Inheritance)
     * Module 3 - Imports and installing modules (if name main)
@@ -26,3 +26,4 @@ Day 2
     * Module 9 - Pattern Matching
     * Module 10 - List Comprehension
     * Bonus Content: - Generators
+    * Bonus Content: - API Theory

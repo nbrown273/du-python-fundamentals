@@ -38,4 +38,5 @@ class Song():
         self.release_date = release_date
 
 # testing
-# TODO: Create an Artist and an Album. Assign the Album to albums property of the Artist.
+# TODO: Using your objects created in module 1, assign the songs to the album, and the album to the artist.
+# TODO: Call the count_songs() method of your Artist object and print the output.
