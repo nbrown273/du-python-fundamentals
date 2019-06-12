@@ -1,0 +1,183 @@
+[
+    {
+        "name": "Red Hot Chili Peppers",
+        "genres": [
+            "Rock"
+        ],
+        "members": [
+            "Flea", 
+            "Anthony Kiedis", 
+            "Chad Smith", 
+            "Josh Klinghoffer"
+        ],
+        "albums": [
+            {
+                "title": "Stadium Arcadium",
+                "release_date": "1999/12/25",
+                "songs": [
+                    {
+                        "name": "Dani California",
+                        "duration": 28200,
+                        "release_date": 1147150800000
+                    },
+                    {
+                        "name": "Snow (Hey Oh)",
+                        "duration": 334000,
+                        "release_date": 1171864800000
+                    },
+                    {
+                        "name": "Charlie",
+                        "duration": 277000,
+                        "release_date": 1582956000000
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Dragonforce",
+        "genres": [
+            "Power Metal",
+            "Speed Metal"
+        ],
+        "members": [
+            "ZP Threat",
+            "Herman Li",
+            "Sam Totman",
+            "Diccon Harper",
+            "Vadim Pruzhanov",
+            "Dider Almouzni"
+        ],
+        "albums": [
+            {
+                "title": "Valley of the Damned",
+                "release_date": "2002/02/25",
+                "songs": [
+                    {
+                        "name": "Valley of the Damned",
+                        "duration": 43200,
+                        "release_date": 1020211200000
+                    },
+                    {
+                        "name": "Black Fire",
+                        "duration": 34700,
+                        "release_date": 1022630400000
+                    },
+                    {
+                        "name": "Black Winter Night",
+                        "duration": 39000,
+                        "release_date": 1025049600000
+                    },
+                    {
+                        "name": "Starfire",
+                        "duration": 35400,
+                        "release_date": 1027296000000
+                    },
+                    {
+                        "name": "Disciples of Babylon",
+                        "duration": 43700,
+                        "release_date": 1029715200000
+                    },
+                    {
+                        "name": "Revalations",
+                        "duration": 41200,
+                        "release_date": 1032048000000
+                    },
+                    {
+                        "name": "Evening Star",
+                        "duration": 40000,
+                        "release_date": 1033430400000
+                    },
+                    {
+                        "name": "Heart of a Dragon",
+                        "duration": 32400,
+                        "release_date": 1036022400000
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "The Rolling Stones",
+        "genres": [
+            "Blues",
+            "Rock",
+            "Rock and Roll"
+        ],
+        "members": [
+            "Mick Jagger",
+            "Keith Richards",
+            "Brian Jones",
+            "Bill Wyman",
+            "Charlie Watts"
+        ],
+        "albums": [
+            {
+                "title": "The Rolling Stones",
+                "release_date": "1964/04/16",
+                "songs": [
+                    {
+                        "name": "Not Fade Away",
+                        "duration": 10800,
+                        "release_date": 189216000000
+                    },
+                    {
+                        "name": "Route 66",
+                        "duration": 14000,
+                        "release_date": 188870400000
+                    },
+                    {
+                        "name": "I Just Want to Make Love to You",
+                        "duration": 13700,
+                        "release_date": 188524800000
+                    },
+                    {
+                        "name": "Honest I Do",
+                        "duration": 12900,
+                        "release_date": 188179200000
+                    },
+                    {
+                        "name": "Now I've Got a Witness",
+                        "duration": 14900,
+                        "release_date": 187833600000
+                    },
+                    {
+                        "name": "Little by Little",
+                        "duration": 15900,
+                        "release_date": 187488000000
+                    },
+                    {
+                        "name": "I'm a King Bee",
+                        "duration": 15500,
+                        "release_date": 187142400000
+                    },
+                    {
+                        "name": "Carol",
+                        "duration": 15300,
+                        "release_date": 186796800000
+                    },
+                    {
+                        "name": "Tell Me",
+                        "duration": 24500,
+                        "release_date": 186451200000
+                    },
+                    {
+                        "name": "Can I Get a Witness",
+                        "duration": 17500,
+                        "release_date": 186105600000
+                    },
+                    {
+                        "name": "You Can Make It If You Try",
+                        "duration": 12100,
+                        "release_date": 185760000000
+                    },
+                    {
+                        "name": "Walking the Dog",
+                        "duration": 19000,
+                        "release_date": 185414400000
+                    }
+                ]
+            }
+        ]
+    }
+]
