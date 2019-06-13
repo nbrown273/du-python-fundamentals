@@ -15,8 +15,8 @@ help(open)
 # Examine the source code of the 'csv' module.
 import inspect
 import csv
-for line in inspect.getsourcelines(csv):
-    print(line)
+for line in inspect.getsourcelines(csv)[0]:
+    print(line[:-1])
 # Can you spot an example of one function serving multiple use cases? Which steps of the function are the result
 # of abstracting away differences in the two use cases?
 
