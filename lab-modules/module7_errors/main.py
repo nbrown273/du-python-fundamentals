@@ -5,13 +5,9 @@ from datetime import timedelta, datetime
 from csv import DictReader
 
 def read_content(filename):
-    try:
-        with open(filename, newline='') as fp:
-            reader = DictReader(fp)
-            return list(reader)
-    except FileNotFoundError e:
-        print(f"Did not find file: {filename}")
-        raise e
+    with open(filename, newline='') as fp:
+        reader = DictReader(fp)
+        return list(reader)
 
 def create_object(record, constructor):
     if 'release_date' in record:
