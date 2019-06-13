@@ -26,7 +26,7 @@ import random
 def contrived_example():
     try:
         print("I'm trying something...")
-        x = random.randint(0, input("Enter the max roll: "))
+        x = random.randint(0, int(input("Enter the max roll: ")))
         print(f"...rolled a {x}")
         assert (x > 5), "That was unlucky"
     except AssertionError as ex:
