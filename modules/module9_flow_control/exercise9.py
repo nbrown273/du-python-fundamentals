@@ -52,3 +52,17 @@ TODO: Write a function that follows the criteria listed below
         "1 does not have a 2nd factor"
         "6 does not have a 5th factor"
 """
+
+def xthFactor(n, x):
+    for i in range(1, n + 1):
+        factorCount = 0
+        for j in range(1, i + 1):
+            if(i % j == 0):
+                factorCount += 1
+            else:
+                continue
+            if(factorCount == x):
+                print(f"The {x}th factor of {i} is {j}")
+                break
+        else:
+            print(f"{i} does not have a {x}th factor")
