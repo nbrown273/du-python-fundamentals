@@ -1,3 +1,5 @@
+from json import dumps
+
 class Artist():
 
     def __init__(self, name, genres=None, members=None, albums=None):
@@ -11,3 +13,11 @@ class Artist():
 
     def countAlbums(self):
         return len(self.albums)
+    
+    def __str__(self):
+        return dumps({
+            "name": self.name,
+            "genres": self.genres,
+            "members": self.members,
+            "albums": self.albums
+        }, indent=2)

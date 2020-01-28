@@ -1,34 +1,27 @@
-import os
-from requests import get
 from faker import Faker
 import json
 from datetime import timedelta, datetime
 
-def load(method, **params):
-    params["api_key"] = os.environ.get("API_KEY")
-    params["format"] = "json"
-    params["method"] = method
-    return get("http://ws.audioscrobbler.com/2.0/", params).json()
+# Complete the following five methods. Remember, DRY by using abstraction and
+# encapsulation to your advantage.
 
 def get_top_artist_names(limit):
-    response = load("chart.gettopartists", limit = limit)
-    return [a["name"] for a in response["artists"]["artist"]]
+    pass
 
 def get_artist_genres(artist):
-    response = load("artist.gettoptags", artist = artist)
-    return [t["name"] for t in response["toptags"]["tag"]][:3]
+    pass
 
 def get_album_names(artist):
-    response = load("artist.gettopalbums", limit = 3, artist = artist)
-    return [a["name"] for a in response["topalbums"]["album"]]
+    pass
 
 def get_album_songs(artist, album):
-    response = load("album.getinfo", artist = artist, album = album)
-    return [t["name"] for t in response["album"]["tracks"]["track"]][:3]
+    pass
 
 def get_song_duration(artist, song_name):
-    response = load("track.getinfo", artist = artist, track = song_name)
-    return timedelta(milliseconds = int(response["track"]["duration"]))
+    pass
+
+# END OF METHODS TO COMPLETE
+# Everything below here simply calls the above methods to make a file
 
 def create_release_date():
     return Faker().date_time_between(start_date='-30y', end_date='now')

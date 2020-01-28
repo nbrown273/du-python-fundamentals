@@ -1,7 +1,9 @@
 """
-TODO: Write a member function "findDuration" for the Album class that returns
-      the sum duration of all the songs in the album.
-    * Function does not take in any parameters.
+TODO: Write a member function "findDuration" that returns
+      the sum duration of all the songs in an album.
+    * Function takes a parameter "albumID", to specify the album id to use
+    * Function should take in a parameter "db", whose value is a
+      data store of the database
     * Function must use a list comprehension.
     * Function returns the sum of the durations of all Song objects in the
       Album object
@@ -9,9 +11,11 @@ TODO: Write a member function "findDuration" for the Album class that returns
 
 
 """
-TODO: Write a member function "findNames" for the Album class that returns
-      a list of song titles in the album.
-    * Function does not take in any parameters.
+TODO: Write a member function "findNames" that returns
+      a list of song titles in an album.
+    * Function takes a parameter "albumID", to specify the album id to use
+    * Function should take in a parameter "db", whose value is a
+      data store of the database
     * Function must use a list comprehension.
     * Function returns a list of titles of all Song objects in the Album
       object.
@@ -93,4 +97,3 @@ def analyze(database):
 # main program: load then analyze the music collection
 if __name__=="__main__":
     database = load()
-    analyze(database)

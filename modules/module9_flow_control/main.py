@@ -1,10 +1,12 @@
 """
 TODO: Write a function "listSongs" that loops through a passed in list of
-      albums, and returns a list of songs, comprised of up to n songs from
+      album ids, and returns a list of songs, comprised of up to n songs from
       each album.
+    * Function should take in a parameter "db", whose value is a
+      data store of the database 
     * Function should take in a parameter "albums", whose value is a list of
-      Album objects
-        - There needs to be at least 1 Album object in the "albums" list
+      Album ids
+        - There needs to be at least 1 id object in the "albums" list
           parameter
     * Function should take in a parameter "n", where "n" in an int
         - Note that n > 0
@@ -90,4 +92,3 @@ def analyze(database):
 # main program: load then analyze the music collection
 if __name__=="__main__":
     database = load()
-    analyze(database)

@@ -78,7 +78,7 @@ Hint: You can make use if the request.args.to_dict() method
                 "albumID": <albumid>,
                 "name": <songname>,
                 "duration": <songduration>,
-                "releasedata": <songreleasedate>
+                "releasedate": <songreleasedate>
             }
         * If <artistid> exists in database:
             * If <albumid> exists in artist object:

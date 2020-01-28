@@ -1,0 +1,29 @@
+{
+  "key1": "value1",
+  "key2": 2,
+  "key3": null,
+  "key4": [
+    null,
+    2,
+    "list3",
+    3.5
+  ],
+  "key5": {
+    "nestedkey1": "nestedvalue1",
+    "nestedkey2": 22,
+    "nestedkey3": [
+      {
+        "id": 0,
+        "name": "Name 0"
+      },
+      {
+        "id": 1,
+        "name": "Name 1"
+      },
+      {
+        "id": 2,
+        "name": "Name 2"
+      }
+    ]
+  }
+}

@@ -6,7 +6,7 @@ def getListPowN(x, n):
     Generate a list of integers, 1 to x, raised to a power n
     Returns: list(int)
     """
-    return [i**n for i in range(1, x)]
+    return [i**n for i in range(1, x) if i % 2 == 0]
 
 
 # Dictionary Comprehension Example

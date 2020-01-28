@@ -1,3 +1,6 @@
+# Custom .gitignore
+answer.py
+
 
 # Created by https://www.gitignore.io/api/code,linux,macos,flask,python,windows,pycharm,intellij,sublimetext
 # Edit at https://www.gitignore.io/?templates=code,linux,macos,flask,python,windows,pycharm,intellij,sublimetext
